@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: lightgrey;
+    max-width: 90%;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.container p {
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.input_container {
+    padding-bottom: 25px;
+}
+
+#yourEmail {
+    font-size: 20px;
+    padding: 5px;
+}
+
+#send {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
