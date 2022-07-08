@@ -1,5 +1,5 @@
-let numberPlayer = Math.floor(Math.random() * 5 + 1);
-let numberComputer = Math.floor(Math.random() * 5 + 1); 
+let numberPlayer = Math.floor(Math.random() * 6 + 1);
+let numberComputer = Math.floor(Math.random() * 6 + 1); 
 alert ('Il tuo numero è ' + numberPlayer + ', il numero del computer è ' + numberComputer);
 if (numberPlayer == numberComputer) {
     alert ('Parità!')
